@@ -33,4 +33,5 @@ int main()
     cout <<"\n Nama: " << mhs.Nama;
     cout <<"\n Alamat: " << mhs.Alamat;
     cout <<"\n Umur: " << mhs.Umur;
+    
 }
