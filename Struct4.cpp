@@ -35,17 +35,17 @@ int main()
     cout << "Umur Mahasiswa: ";
     cin >> mhs[i].Umur;  
     }
-     
+
     for (int i = 0; i < 3; i++)
     {
     cout << endl;
     cout << " Data Mahasiswa ke-" << i + 1 << endl;
-    cout <<"\n NIM: " << mhs[0].NIM;
-    cout <<"\n Nama: " << mhs[0].Nama;
-    cout <<"\n Alamat: " << mhs[0].Alamat;
-    cout <<"\n Alamat Desa: " << mhs[0].Alamat.desa;
-    cout <<"\n Alamat Kota: " << mhs[0].Alamat.kota;
-    cout <<"\n Umur: " << mhs[0].Umur;
+    cout <<"\n NIM: " << mhs[i].NIM;
+    cout <<"\n Nama: " << mhs[i].Nama;
+    cout <<"\n Alamat: " << mhs[i].Alamat;
+    cout <<"\n Alamat Desa: " << mhs[i].Alamat.desa;
+    cout <<"\n Alamat Kota: " << mhs[i].Alamat.kota;
+    cout <<"\n Umur: " << mhs[i].Umur;
     }
 
 
