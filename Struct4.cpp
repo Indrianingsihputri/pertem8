@@ -34,10 +34,12 @@ int main()
     cin >> mhs[i].Alamat.kota;
     cout << "Umur Mahasiswa: ";
     cin >> mhs[i].Umur;  
-    } 
+    }
+     
     for (int i = 0; i < 3; i++)
     {
     cout << endl;
+    cout << " Data Mahasiswa ke-" << i + 1 << endl;
     cout <<"\n NIM: " << mhs[0].NIM;
     cout <<"\n Nama: " << mhs[0].Nama;
     cout <<"\n Alamat: " << mhs[0].Alamat;
@@ -46,7 +48,7 @@ int main()
     cout <<"\n Umur: " << mhs[0].Umur;
     }
 
-    
+
     return 0;
    
 }
